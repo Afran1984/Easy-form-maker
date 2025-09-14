@@ -17,7 +17,7 @@ const fieldTypes = [
 
 const LeftField = () => {
   return (
-    <div>
+    <div className='w-3/4 bg-gray-100 p-4 border-r overflow-y-auto h-full'>
         {
             fieldTypes.map((fileld) => (
                 <button key={fileld.type}
